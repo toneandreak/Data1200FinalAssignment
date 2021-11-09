@@ -1,15 +1,20 @@
 
 h1 {
     font-family: 'Aladin';
-    font-size: 150px;
+    font-size: 100px;
     color: black;
     text-align: center;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
 }
 
 
 /*her starter menyen*/
 .dropbtn {
-    background-color: #548235;
+    background-color: #5f0e3d;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -46,7 +51,7 @@ h1 {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #e2f0d9;}
+.dropdown:hover .dropbtn {background-color: #f70084;}
 
 .sticky {
     position: fixed;
