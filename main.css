@@ -1,20 +1,29 @@
 
+h1 {
+    font-family: 'Aladin';
+    font-size: 150px;
+    color: black;
+    text-align: center;
+}
+
+
+/*her starter menyen*/
 .dropbtn {
     background-color: #548235;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-    font-family: 'Aladin', cursive;
+    font-family: 'Aladin';
   }
   
 
-  .dropdown {
+.dropdown {
     position: relative;
     display: inline-block;
   }
   
-  .dropdown-content {
+ .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -24,22 +33,22 @@
   }
   
  
-  .dropdown-content a {
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    font-family: 'Aladin', cursive;
+    font-family: 'Aladin';
   }
   
 
-  .dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ddd;}
 
-  .dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;}
 
-  .dropdown:hover .dropbtn {background-color: #e2f0d9;}
+.dropdown:hover .dropbtn {background-color: #e2f0d9;}
 
-  .sticky {
+.sticky {
     position: fixed;
     top: 0;
     width: 100%;
