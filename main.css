@@ -5,10 +5,19 @@ h1 {
     color: black;
     text-align: center;
 }
+h2 {
+  font-family: 'Aladin';
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
 p {
     font-family: Helvetica, sans-serif;
     text-align: center;
     font-size: 25px;
+}
+body{
+  background-color: rgb(194, 152, 90);
 }
 
 
@@ -16,10 +25,11 @@ p {
 .dropbtn {
     background-color: #5f0e3d;
     color: white;
-    padding: 16px;
-    font-size: 16px;
+    padding: 20px;
+    font-size: 30px;
     border: none;
     font-family: 'Aladin';
+    min-width: 180px;
   }
   
 
@@ -32,9 +42,10 @@ p {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    font-size: 30px;
   }
   
  
@@ -57,4 +68,12 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
+  }
+
+  /*Styler fun-page*/
+  #funBody{
+    background-color: cadetblue;
+  }
+  #pictures{
+    text-align: center;
   }
