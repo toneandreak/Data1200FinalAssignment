@@ -18,6 +18,7 @@ p {
 }
 body{
   background-color: rgb(194, 152, 90);
+  text-align: center;
 }
 
 
@@ -30,6 +31,7 @@ body{
     border: none;
     font-family: 'Aladin';
     min-width: 180px;
+    text-align: center;
   }
   
 
