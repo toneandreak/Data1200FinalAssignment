@@ -10,9 +10,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
     </head>
     <body>
-      <nav>
+      <div id="navbar">
+        <a href="reflection.html">Home</a>
+        <a class="active" href="reflection.html">Reflection</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a href="topical.html">Topical Information</a>
+        <a href="fun.html">Fun!</a>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class = "content" onclick="closeNav()">&times;</a>
         <div class="dropdown">
-          <button class="dropbtn">Menu</button>
+          <button class="dropbtn" onclick="openNav ()">Menu</button>
           <div class="dropdown-content">
             <a href="index.html">Home</a>
             <a href="reflection.html">Reflection</a>
@@ -21,7 +28,8 @@
             <a href="fun.html">Fun!</a>
           </div>
         </div>
-      </nav>
+        </div>
+      </div>
 
       <h1> Reflection</h1>
 
