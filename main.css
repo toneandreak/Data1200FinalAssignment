@@ -4,12 +4,16 @@ h1 {
     font-size: 100px;
     color: black;
     text-align: center;
+      animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 h2 {
   font-family: 'Aladin';
   font-size: 50px;
   color: black;
   text-align: center;
+      animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 p {
     font-family: Helvetica, sans-serif;
