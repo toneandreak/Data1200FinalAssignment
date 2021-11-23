@@ -1,8 +1,33 @@
 
+ main{
+  padding-bottom: 30px;
+}
+/*For smaller screens*/
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    #funParagraph{
+        font-size: 15px;
+    }
+    .dropbtn{
+      min-width: 500px;
+    }
+}
+/*text style*/
 h1 {
-    font-family: 'Aladin';
+    font-family: 'Simplifica';
     font-size: 100px;
-    color: black;
+    color: #B3EFFF;
     text-align: center;
       animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -17,14 +42,38 @@ h2 {
 }
 p {
     font-family: Helvetica, sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 25px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
 }
+aside{
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  font-size: 18px;
+}
+/*Styling the body*/
 body{
-  background-color: rgb(194, 152, 90);
+  background-color: #1C304A;
   text-align: center;
+  box-sizing: border-box;
 }
+/*Styling the footer*/
+footer{
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  height: 35px;
+  width: 100%;
+  padding-left: 0px;
+  padding-bottom: 30px;
 
+}
+main{
+  padding-bottom: 30px;
+}
 
 /*Styling the dropdown menu*/
 .dropbtn {
@@ -34,8 +83,9 @@ body{
     font-size: 30px;
     border: none;
     font-family: 'Aladin';
-    min-width: auto;
+    min-width: 100%;
     text-align: center;
+    box-sizing: border-box;
   }
   
 .dropdown {
@@ -73,6 +123,23 @@ body{
     width: 100%;
   }
 
+  /*Styling the homepage*/
+ 
+  .indexcolumn1{
+    width: 75%;
+    float: left;
+    padding: 15px;
+    color: white;
+  }
+  .indexcolumn2{
+    width: 25%;
+    float: left;
+    padding: 15px;
+    background-color: #B3EFFF;
+    color: black;
+  }
+  
+
   /*Styling fun-page*/
 * {
   box-sizing: border-box;
@@ -82,14 +149,14 @@ body{
     text-align: center;
       box-sizing: border-box;
   }
-  #funParagraph{
+  .funParagraph{
     display: inline-block;
     font-family: Helvetica, sans-serif;
     text-align: center;
     font-size: 25px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #ddd;
+    background-color: none;
     color: black;
       box-sizing: border-box;
   }
@@ -110,24 +177,5 @@ body{
   display: table;
   clear: both;
 }
-/*For smaller screens*/
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-    h1{
-        font-size: 50px;
-    }
-    h2{
-        font-size: 30px;
-    }
-    p{
-        font-size: 15px;
-    }
-    #funParagraph{
-        font-size: 15px;
-    }
-    .dropbtn{
-      min-width: 500px;
-    }
-}
+
+
