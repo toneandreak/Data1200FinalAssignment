@@ -109,12 +109,20 @@ main{
     color: black;
   }
   
-  /*Styling accessibiliy page*/
+  /*Styling accessibility page*/
+
+  .accessibilityParagraph{
+    text-align:center;
+    background-color: none;
+    color: #B3EFFF;
+
+  }
   .accessibilitycolumn1 {
-    width: 50%;
+    width: 40%;
+    
   }
   .accessibilitycolumn2 {
-    width: 50%;
+    width: 40%;
     float:left;
     
   }
@@ -162,7 +170,7 @@ main{
 /*Navigation menu*/
 #navbar {
   overflow: hidden;
-  background-color:rgb(255, 213, 0);
+  background-color:#B3EFFF;
 }
 
 #navbar a {
