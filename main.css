@@ -95,7 +95,7 @@ body{
   }
 
     .column{
-        width: 33,33%;
+        width: 50%;
         float: left;
         padding: 15px;
 }
