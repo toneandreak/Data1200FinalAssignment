@@ -184,8 +184,8 @@ main{
 }
 
 #navbar a:hover {
-  background-color: #f1f1f1;
-  color:black;
+  background-color: black;
+  color:white;
 }
 
 #navbar a.active {
