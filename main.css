@@ -73,6 +73,9 @@ body{
   }
 
   /*Styling fun-page*/
+* {
+  box-sizing: border-box;
+}
   #funBody{
     background-color: rgb(122, 154, 155);
     text-align: center;
