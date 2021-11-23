@@ -11,9 +11,16 @@
       
     </head>
     <body>
-    <nav>
+  <div id="navbar">
+        <a class="active" href="index.html">Home</a>
+        <a href="reflection.html">Reflection</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a href="topical.html">Topical Information</a>
+        <a href="fun.html">Fun!</a>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class = "content" onclick="closeNav()">&times;</a>
         <div class="dropdown">
-          <button class="dropbtn">Menu</button>
+          <button class="dropbtn" onclick="openNav ()">Menu</button>
           <div class="dropdown-content">
             <a href="index.html">Home</a>
             <a href="reflection.html">Reflection</a>
@@ -22,7 +29,8 @@
             <a href="fun.html">Fun!</a>
           </div>
         </div>
-      </nav>
+        </div>
+      </div>
 
       <h1>Welcome to our first year at OsloMet! </h1>
       
@@ -32,14 +40,13 @@
       </p>
     </div>
     <div class="indexcolumn2">
-      <h2>Oslo Metropolitan University</h2>
-      <aside>OsloMet is the second biggest university in Oslo and has currently 21 905 students. The main campus is in Pilestredet, Oslo.
+      <h3>Oslo Metropolitan University</h3>
+      <aside>OsloMet is the second biggest university in Oslo and has currently 21 905 students. The main campus is in Pilestredet, Oslo.<sup><a href="https://www.oslomet.no/en/about">[1]</a></sup>
         <blockquote cite="https://www.oslomet.no/en/about">One of OsloMet’s greatest strengths is our educational portfolio. With our institution home to 
           degree programmes in teacher education, nursing, engineering—to name just a 
           few—we are uniquely positioned to develop cutting-edge solutions to 
-          the challenges facing the welfare state.<blockquote>
-          – Nina Waaler, Acting Rector
-        https://www.oslomet.no/en/about
+          the challenges facing the welfare state. <br><br>
+          - Nina Waaler, Acting Rector <blockquote>
           </aside>
     </div>
     <br>
@@ -53,3 +60,23 @@
 <!--thispageshouldbeageneralinformationpage that helps the visitor understand what 
   this site is, and navigate to the other pages. May be short and simple. 
   Common theme for site: Being a first-year student (at OsloMet).-->
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
