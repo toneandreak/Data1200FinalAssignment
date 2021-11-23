@@ -72,10 +72,11 @@ body{
     width: 100%;
   }
 
-  /*Styler fun-page*/
+  /*Styling fun-page*/
   #funBody{
     background-color: rgb(122, 154, 155);
     text-align: center;
+      box-sizing: border-box;
   }
   #funParagraph{
     display: inline-block;
@@ -86,13 +87,9 @@ body{
     padding-right: 10px;
     background-color: #ddd;
     color: black;
+      box-sizing: border-box;
   }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+
     .col-1{
         width: 25%;
 }
