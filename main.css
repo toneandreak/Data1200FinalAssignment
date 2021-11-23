@@ -103,7 +103,7 @@ body{
 .column2{
   width:100%;
   background-color: #ddd;
-  float: center;
+  float: left;
 }
 .row:after {
   content: "";
