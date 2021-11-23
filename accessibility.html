@@ -11,9 +11,16 @@
       
     </head>
     <body>
-    <nav>
+      <div id="navbar">
+        <a href="index.html">Home</a>
+        <a href="reflection.html">Reflection</a>
+        <a class="active" href="accessibility.html">Accessibility</a>
+        <a href="topical.html">Topical Information</a>
+        <a href="fun.html">Fun!</a>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class = "content" onclick="closeNav()">&times;</a>
         <div class="dropdown">
-          <button class="dropbtn">Menu</button>
+          <button class="dropbtn" onclick="openNav ()">Menu</button>
           <div class="dropdown-content">
             <a href="index.html">Home</a>
             <a href="reflection.html">Reflection</a>
@@ -22,11 +29,13 @@
             <a href="fun.html">Fun!</a>
           </div>
         </div>
-      </nav>
+        </div>
+      </div>
 
     <h1>Accessibility</h1>
-    <p>
-      <div class="accessibilitycolumn1">We kept accessibility foremost in our thoughts from when we first started to build the website.
+    
+      <div class="accessibilitycolumn1">
+        <p class="accessibilityParagraph">We kept accessibility foremost in our thoughts from when we first started to build the website.
         We wanted to make sure that anyone would be able to use and enjoy it, which was why we not
          only focused on “passing” the accessibility checker, but also on other aspects of accessibility
          as well. We thought about the color choice and how it would impact readability for those with
@@ -34,13 +43,13 @@
          cognitive disabilities and learning difficulties. Instead of thinking along the lines of
         “catering” to those with disabilities, as it is often phrased, we have decided to build our
          website with the mindset that we are building without actively including barriers instead.
-        
+        </p>
          <img src="photos/accessibility.jpg" alt="A screenshot of the result from an accessibility checker.">
         </div>
          
       <div class="accessibilitycolumn2">
         <img src="photos/coloraccessibility.jpg" alt="A screenshot of accessible colors.">
-      </div>
+      <p class="accessibilityParagraph">
       We kept accessibility foremost in our thoughts from when we first started to build the website.
        We wanted to make sure that anyone would be able to use and enjoy it, which was why we not
         only focused on “passing” the accessibility checker, but also on other aspects of accessibility
@@ -50,6 +59,7 @@
        “catering” to those with disabilities, as it is often phrased, we have decided to build our
         website with the mindset that we are building without actively including barriers instead.
     </p>
+      </div>
 
     
     </body>
