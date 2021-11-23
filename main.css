@@ -93,7 +93,7 @@ body{
     margin-right: auto;
     width: 50%;
   }
-    .column{
+    #column{
         column.count: 3;
         column-gap: 40px;
 }
