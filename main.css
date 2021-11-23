@@ -34,7 +34,7 @@ body{
     font-size: 30px;
     border: none;
     font-family: 'Aladin';
-    min-width: 180px;
+    min-width: auto;
     text-align: center;
   }
   
@@ -98,6 +98,12 @@ body{
         width: 50%;
         float: left;
         padding: 15px;
+        background-color: #ddd;
+}
+.column2{
+  width:100%;
+  background-color: #ddd;
+  float: center;
 }
 .row:after {
   content: "";
@@ -120,5 +126,8 @@ body{
     }
     #funParagraph{
         font-size: 15px;
+    }
+    .dropbtn{
+      min-width: 500px;
     }
 }
