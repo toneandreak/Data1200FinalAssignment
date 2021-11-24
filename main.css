@@ -59,17 +59,9 @@ h3{
   color: #1C304A;
 }
 .homeheading{
-  text-shadow: 1vw 1vw #1C304A;
-  background-color: rgba(0,0,0, 0.4); 
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 30px 0px 00px;
-  width: 100%;
-  text-align: center;
-  height: 90%;
+    text-shadow: 1vw 1vw #1C304A;
+    background-image: url("photographer.jpg");
+    color: white;
 }
 #thishomeheading{
   color: white;
@@ -105,26 +97,8 @@ body{
   background-color: #1C304A;
   text-align: left;
   box-sizing: border-box; 
-  
-  background-repeat: no-repeat;
-  background-size: 100%;
-  box-sizing: border-box;
-  position: absolute;
 }
-.bg-image{
-  background-image: url("photos/OsloMet_b.jpg"); 
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 100%;
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-body, html {
-  height: 100%;
-}
 
 #reflectionBody{
   background-color: #1C304A;
