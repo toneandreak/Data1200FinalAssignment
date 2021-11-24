@@ -37,6 +37,7 @@ h1 {
     text-align: center;
       animation-duration: 4s;
   animation-iteration-count: infinite;
+
 }
 h2 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -56,10 +57,17 @@ h3{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 3vw;
   text-align: center;
+
   color: #1C304A;
 }
-#homeheading{
-  background-color: #1C304A;
+.homeheading{
+  background-color: none;
+  text-shadow: 10px 10px #000000;
+  
+}
+#thishomeheading{
+  text-shadow: 3px#1C304A;
+  
 }
 p{
     font-family: 'Times New Roman', Times, serif;
