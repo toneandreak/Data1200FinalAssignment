@@ -82,156 +82,6 @@ blockquote{
   font-size: 1.5vw;
   margin: 0px;
 }
-/*Styling the body*/
-body{
-  background-color: #1C304A;
-  text-align: left;
-  box-sizing: border-box;
-}
-#homeBody{
-  background-color: #1C304A;
-  text-align: left;
-  box-sizing: border-box; 
-}
-
-/*Styling the images*/
-img{
-  width: 100%;
-  height: 100%;
-  object-fit: contain; /*Making them adjust to different screens*/
-}
-
-/*Styling article*/
-article{
-  background-color: white;
-  text-align: left;
-  padding: 2.2vw;
-  box-sizing: border-box;
-  margin: 2vw 1.7vw 1vw;
-}
-
-/*Styling the list in topical page*/
-li{
-font-family: 'Times New Roman', Times, serif;
-text-align: left;
-font-size: 2.2vw;
-color: rgb(0, 0, 0);
-margin: 2vw 5vw 1vw 0.8vw;
-}
-
-/*Styling the footer*/
-.thefooter{
-  background-color: rgb(0, 0, 0);
-  color: white;
-  padding: 0px;
-  float: left;
-  width: 100%;
-  height: 50px;
-  margin-top: 5px;
-  font-size: 2.2vw;
-  margin-bottom: 5px;
-  text-align: center;
-  box-sizing: border-box;
-  
-}
-
-/*Styling the homepage*/
- 
-  .indexcolumn1{
-    width: 70%;
-    float: left;
-    padding: 15px;
-    background-color: white;
-  }
-  
-  .indexcolumn2{
-    width: 30%;
-    float: left;
-    padding: 15px;
-    background-color: #B3EFFF;
-    color: black;
-  }
-  
-
-  /*Styling accessibility page*/
-
-  .accessibilityParagraph{
-    text-align: left;
-    font-size: 2.2vw;
-    color: rgb(0, 0, 0);
-    margin: 2vw 1.7vw 1vw;
-
-  }
-  .accessibilityPicturetext{
-    text-align: left;
-    font-size: 1.5vw;
-    color: rgb(0, 0, 0);
-    margin: 2vw 1.7vw 1vw;
-  }
-  .accesibilitySubheading{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 7vw;
-  color: #000000;
-  text-align: center;
-
-  }
-  .accessibilityColumn1 {
-    width: 50%;
-    float: left;
-    padding: 15px;
-    background-color: white;
-  }
-  .accessibilityColumn2 {
-    width: 50%;
-    float: left;
-    padding: 15px;
-    background-color: white;
-  }
-
-
-  /*Styling fun-page*/
-* {
-  box-sizing: border-box;
-}
-.animate__animated {
-  color: rgb(64, 38, 75);
-  text-shadow: 1vw 1vw rgb(228, 228, 228);
-}
-  #funBody{
-    background-color: rgb(122, 154, 155);
-    text-align: center;
-      box-sizing: border-box;
-  }
-  .funParagraph{
-    display: inline-block;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 2.2vw;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0px 0px 2vw;
-    color: black;
-      box-sizing: border-box;
-  }
-
-    .column{
-        width: 50%;
-        float: left;
-        padding: 15px;
-        background-color: rgb(228, 228, 228);
-}
-
-.column2{
-  width:100%;
-  background-color: rgb(228, 228, 228);
-  float: left;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /*Navigation menu*/
 #navbar {
   overflow: hidden;
@@ -273,6 +123,66 @@ margin: 2vw 5vw 1vw 0.8vw;
 }
 
 
+/*Styling the body*/
+body{
+  background-color: #1C304A;
+  text-align: left;
+}
+
+/*Styling the images*/
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /*Making them adjust to different screens*/
+}
+
+/*Styling article*/
+article{
+  background-color: white;
+  text-align: left;
+  padding: 2.2vw;
+  margin: 2vw 1.7vw 1vw;
+}
+
+/*Styling the list in topical page*/
+li{
+font-family: 'Times New Roman', Times, serif;
+text-align: left;
+font-size: 2.2vw;
+color: rgb(0, 0, 0);
+margin: 2vw 5vw 1vw 0.8vw;
+}
+
+/*Styling the footer*/
+.thefooter{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+  font-size: 2.2vw;
+  margin-bottom: 5px;
+  text-align: center;
+  
+}
+
+/*Styling the homepage*/
+.indexcolumn1{
+  width: 70%;
+  float: left;
+  padding: 15px;
+  background-color: white;
+}
+
+.indexcolumn2{
+  width: 30%;
+  float: left;
+  padding: 15px;
+  background-color: #B3EFFF;
+  color: black;
+}
 /* StylingReflection page */
 
 .column3{
@@ -308,3 +218,86 @@ margin: 2vw 5vw 1vw 0.8vw;
   text-align: center;
   box-sizing: border-box;
 }
+  
+
+/*Styling accessibility page*/
+
+  .accessibilityParagraph{
+    text-align: left;
+    font-size: 2.2vw;
+    color: rgb(0, 0, 0);
+    margin: 2vw 1.7vw 1vw;
+
+  }
+  .accessibilityPicturetext{
+    text-align: left;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    margin: 2vw 1.7vw 1vw;
+  }
+  .accesibilitySubheading{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 7vw;
+  color: #000000;
+  text-align: center;
+
+  }
+  .accessibilityColumn1 {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    background-color: white;
+  }
+  .accessibilityColumn2 {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    background-color: white;
+  }
+
+
+
+/*Styling fun-page*/
+* {
+  box-sizing: border-box;
+}
+.animate__animated {
+  color: rgb(64, 38, 75);
+  text-shadow: 1vw 1vw rgb(228, 228, 228);
+}
+  #funBody{
+    background-color: rgb(122, 154, 155);
+    text-align: center;
+  }
+  .funParagraph{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2.2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px 0px 2vw;
+    color: black;
+  }
+
+    .column{
+        width: 50%;
+        float: left;
+        padding: 15px;
+        background-color: rgb(228, 228, 228);
+}
+
+.column2{
+  width:100%;
+  background-color: rgb(228, 228, 228);
+  float: left;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
