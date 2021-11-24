@@ -37,7 +37,6 @@ h1 {
     text-align: center;
       animation-duration: 4s;
   animation-iteration-count: infinite;
-
 }
 h2 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -62,7 +61,19 @@ h3{
 .homeheading{
   background-color: none;
   text-shadow: 1vw 1vw #1C304A;
-  
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
 #thishomeheading{
   color: white;
@@ -77,13 +88,14 @@ p{
 aside{
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
-  font-size: 2.2vw;
+  font-size: 1.9vw;
   margin: 1px 3px 3px;
 }
 blockquote{
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
   font-size: 1.5vw;
+  margin: 0px;
 }
 /*Styling the body*/
 body{
@@ -96,12 +108,27 @@ body{
   background-color: #1C304A;
   text-align: left;
   box-sizing: border-box; 
-  background-image: url(photos/OsloMet_b.jpg);
+  
   background-repeat: no-repeat;
   background-size: 100%;
   box-sizing: border-box;
   position: absolute;
 }
+.bg-image{
+  background-image: url("photos/OsloMet_b.jpg"); 
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body, html {
+  height: 100%;
+}
+
 #reflectionBody{
   background-color: #1C304A;
   text-align: center;
@@ -138,19 +165,15 @@ margin: 10px 30px 0px 15px;
   padding: 0px;
   float: left;
   width: 100%;
-  height: 60px;
+  height: 50px;
   margin-top: 5px;
   font-size: 2.2vw;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   text-align: center;
   box-sizing: border-box;
   
 }
 
-
-main{
-  padding-bottom: 30px;
-}
 /*Styling the homepage*/
  
   .indexcolumn1{
@@ -177,20 +200,27 @@ main{
     margin: 20px 50px;
 
   }
-  .accesibilitysubheading{
+  .accessibilityPicturetext{
+    text-align: left;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    margin: 20px 50px;
+
+  }
+  .accesibilitySubheading{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 7vw;
   color: #000000;
   text-align: center;
 
   }
-  .accessibilitycolumn1 {
+  .accessibilityColumn1 {
     width: 50%;
     float: left;
     padding: 15px;
     background-color: white;
   }
-  .accessibilitycolumn2 {
+  .accessibilityColumn2 {
     width: 50%;
     float: left;
     padding: 15px;
