@@ -61,11 +61,11 @@ h3{
 }
 .homeheading{
   background-color: none;
-  text-shadow: 10px 10px #1C304A;
+  text-shadow: 10px 10px #B3EFFF;
   
 }
 #thishomeheading{
-  color: #000000;
+  color: #1C304A;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
