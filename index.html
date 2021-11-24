@@ -13,23 +13,13 @@
       <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
       
     </head>
-    <body>
+    <body id="homeBody">
   <div id="navbar">
         <a class="active" href="index.html">Home</a>
         <a href="reflection.html">Reflection</a>
         <a href="accessibility.html">Accessibility</a>
         <a href="topical.html">Topical Information</a>
         <a href="fun.html">Fun!</a>
-        <div id="myNav" class="overlay">
-          <a class = "closebtn" onclick="closeNav()">&times;</a>
-          <div class="dropdown-content">
-            <a href="index.html">Home</a>
-            <a href="reflection.html">Reflection</a>
-            <a href="accessibility.html">Accessibility</a>
-            <a href="topical.html">Topical Information</a>
-            <a href="fun.html">Fun!</a>
-          </div>
-        </div>
   </div>
         
 
@@ -37,7 +27,7 @@
       
       <div class="indexcolumn1">
       <p>
-          As first year students we have had a lot of fun, but we've also had to work hard!
+          As first year students we have had a lot of fun, but we have also had to work hard.
           The course DATA1200 Webdevelopment has taught us about building websites, programming, accessibility and technology.
           This first semester has been challenging, due to corona restrictions that still affects the daily university life. 
           This includes digital lectures and exams. For this assignment we all had to come together and use our different strengths.
@@ -45,7 +35,7 @@
           have more knowledge about website design and the Software Engineering students have a more technical approach.
           This website includes an reflection essay about learning to code, a short presentation of accesability of this website, 
           a topical information site about fake news and critical thinking in the digital era and a fun page about Lilo, the cat.
-          <br><img src="/photos/oslomet.png" alt="">
+          <br><br><br><img src="/photos/oslomet.png" alt="">
       </p>
     </div>
     <div class="indexcolumn2">
@@ -74,18 +64,15 @@
           navbar.classList.remove("sticky");
         }
       }
-      function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-      }
-      function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-      }
       </script>
-    </body>
-    <footer>
-    This website was created as the final assignment for DATA1200 Webdevelopment at OsloMet.
-    </footer>
     
+    <div class="thefooter">
+    <footer>
+      <br>
+    <p class="website">This website was created as the final assignment for DATA1200 Webdevelopment at OsloMet.</p>
+    </footer>
+  </div>
+  </body>
 </html>
 <!--thispageshouldbeageneralinformationpage that helps the visitor understand what 
   this site is, and navigate to the other pages. May be short and simple. 
