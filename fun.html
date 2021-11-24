@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang ="en">
     <head>
+      <title>Fun page</title>
         <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,9 +13,16 @@
       
     </head>
     <body id="funBody">
-    <nav>
+      <div id="navbar">
+        <a href="index.html">Home</a>
+        <a href="reflection.html">Reflection</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a href="topical.html">Topical Information</a>
+        <a class="active" href="fun.html">Fun!</a>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class = "content" onclick="closeNav()">&times;</a>
         <div class="dropdown">
-          <button class="dropbtn">Menu</button>
+          <button class="dropbtn" onclick="openNav ()">Menu</button>
           <div class="dropdown-content">
             <a href="index.html">Home</a>
             <a href="reflection.html">Reflection</a>
@@ -23,7 +31,8 @@
             <a href="fun.html">Fun!</a>
           </div>
         </div>
-      </nav>
+        </div>
+      </div>
     <h1 class= "animate__animated animate__bounce"> VERY Fun page! &#9996;</h1>
     <h2 class= "animate__animated animate__bounce">The story of Lilo the cat &#128049;</h2>
     <div class="column">
@@ -68,8 +77,7 @@
     <br>
     <body>
     <footer>
-  
-      <p>This website was created as the final assignment for DATA1200 Webdevelopment at OsloMet.</p>
+    This website was created as the final assignment for DATA1200 Webdevelopment at OsloMet.
     </footer>
 </html>
 <!--Fun page: Make one page that is in a different layout and have a
