@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang ="en">
     <head>
+      
+<title>Our First Year at OsloMet</title>
+
         <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +21,7 @@
         <a href="topical.html">Topical Information</a>
         <a href="fun.html">Fun!</a>
         <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class = "content" onclick="closeNav()">&times;</a>
+          <a href="javascript:void(0)" class = "closebtn" onclick="closeNav()">&times;</a>
         <div class="dropdown">
           <a class="dropbtn" onclick="openNav ()">Menu</a>
           <div class="dropdown-content">
@@ -36,7 +39,8 @@
       
       <div class="indexcolumn1">
       <p>
-          vårt første år på oslomet
+          As first year students we've had a lot of fun, but we've also had to work hard!
+          We've learned a lot about building websites, programming, accessibility and technology.
       </p>
     </div>
     <div class="indexcolumn2">
@@ -54,29 +58,30 @@
     <br>
     </body>
     <footer>
-      <p>This website was created as the final assignment for DATA1200 Webdevelopment at OsloMet.</p>
+    This website was created as the final assignment for DATA1200 Webdevelopment at OsloMet.
     </footer>
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
 </html>
 <!--thispageshouldbeageneralinformationpage that helps the visitor understand what 
   this site is, and navigate to the other pages. May be short and simple. 
   Common theme for site: Being a first-year student (at OsloMet).-->
-  <script>
-    window.onscroll = function() {myFunction()};
-    
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-    function openNav() {
-      document.getElementById("myNav").style.width = "100%";
-    }
-    function closeNav() {
-      document.getElementById("myNav").style.width = "0%";
-    }
-    </script>
+  
