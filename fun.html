@@ -59,13 +59,28 @@
         <p class="funParagraph">And live a quiet cat-life which includes a lot of sleeping and eating.<br></p>
      
     </div>
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+      <div class="thefooter">
+        <footer>
+          <br>
+        <p class="website">This website was created as the final assignment for DATA1200 Webdevelopment at OsloMet.</p>
+        </footer>
+      </div>
     </body>
-    <br>
-    <br>
-    <body>
-    <footer>
-    This website was created as the final assignment for DATA1200 Webdevelopment at OsloMet.
-    </footer>
+
 </html>
 <!--Fun page: Make one page that is in a different layout and have a
 different styling than the others. Put in some text and images. We accept
