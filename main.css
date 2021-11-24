@@ -125,7 +125,7 @@ color: rgb(0, 0, 0);
   padding: 0px;
   float: left;
   width: 100%;
-  height: 50px;
+  height: 60px;
   margin-top: 5px;
   font-size: 2.5vw;
   margin-bottom: 20px;
@@ -144,8 +144,7 @@ main{
     float: left;
     padding: 15px;
     background-color: white;
-  
-    
+    padding: 15px;
   }
   .indexcolumn2{
     width: 30%;
