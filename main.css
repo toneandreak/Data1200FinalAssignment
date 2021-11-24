@@ -209,13 +209,13 @@ main{
 }
 
 #navbar a:hover {
-  background-color:white;
-  color: black;
+  color:white;
+  background-color: black;
 }
 
 #navbar a.active {
-  background-color:white;
-  color: black;
+  color:white;
+  background-color: black;
 }
 
 .content {
