@@ -1,6 +1,4 @@
-
-
-/*For smaller screens*/
+/*Adjust the website for smaller screens*/
 @media screen and (max-width: 500px) {
     .indexcolumn1{
       min-width: 100%;
@@ -29,14 +27,13 @@
 
 }
 
-/*text style*/
+/*Text styles*/
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10vw;
     color: #B3EFFF;
     text-align: center;
-      animation-duration: 4s;
-  animation-iteration-count: infinite;
+ 
 }
 h2 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,7 +57,6 @@ h3{
 }
 .homeheading{
     text-shadow: 1vw 1vw #1C304A;
-    background-image: url("photographer.jpg");
     color: white;
 }
 #thishomeheading{
