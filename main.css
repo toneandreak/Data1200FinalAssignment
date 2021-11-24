@@ -62,6 +62,7 @@ p {
     text-align: left;
     font-size: 2.5vw;
     color: rgb(0, 0, 0);
+    margin: 20px 50px 75px;
 }
 aside{
   font-family: 'Times New Roman', Times, serif;
@@ -140,7 +141,7 @@ main{
 /*Styling the homepage*/
  
   .indexcolumn1{
-    width: 68%;
+    width: 70%;
     float: left;
     padding: 15px;
     background-color: white;
