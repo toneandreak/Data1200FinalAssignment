@@ -130,11 +130,12 @@ main{
 
   }
   .accessibilitycolumn1 {
-    width: 40%;
+    width: 50%;
+    float: left;
     
   }
   .accessibilitycolumn2 {
-    width: 40%;
+    width: 50%;
     float:left;
     
   }
