@@ -49,6 +49,7 @@ h2 {
 h3{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 3vw;
+  text-align: center;
 
 }
 #oslometheading{
@@ -60,7 +61,7 @@ h3{
 p {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     color: rgb(0, 0, 0);
     margin: 20px 50px 75px;
 }
@@ -107,7 +108,7 @@ img{
 article{
   background-color: white;
   text-align: left;
-  padding: 2.5vw;
+  padding: 2.2vw;
   box-sizing: border-box;
 }
 
@@ -115,8 +116,9 @@ article{
 li{
 font-family: 'Times New Roman', Times, serif;
 text-align: left;
-font-size: 2.5vw;
+font-size: 2.2vw;
 color: rgb(0, 0, 0);
+margin: 20px 50px;
 }
 
 /*Styling the footer*/
@@ -128,10 +130,11 @@ color: rgb(0, 0, 0);
   width: 100%;
   height: 60px;
   margin-top: 5px;
-  font-size: 2.5vw;
+  font-size: 2.2vw;
   margin-bottom: 20px;
   text-align: center;
   box-sizing: border-box;
+  
 }
 
 
@@ -160,7 +163,9 @@ main{
 
   .accessibilityParagraph{
     text-align: left;
-    color: black;
+    font-size: 2.2vw;
+    color: rgb(0, 0, 0);
+    margin: 20px 50px;
 
   }
   .accessibilitycolumn1 {
@@ -193,7 +198,7 @@ main{
     display: inline-block;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     padding-left: 10px;
     padding-right: 10px;
     background-color: #ddd;
@@ -277,7 +282,7 @@ main{
   text-align: left;
   background-color: white;
   color: #000000;
-  font-size: 2.5vw;
+  font-size: 2.2vw;
 }
 
 .reflectionSubheading{
