@@ -67,6 +67,7 @@ body{
   background-color: #1C304A;
   text-align: left;
   box-sizing: border-box;
+  
 }
 #homeBody{
   background-color: #1C304A;
@@ -75,6 +76,7 @@ body{
   background-image: url(photos/OsloMet_b.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  box-sizing: border-box;
 }
 #reflectionBody{
   background-color: #1C304A;
@@ -111,6 +113,7 @@ color: rgb(0, 0, 0);
   font-size: 25px;
   margin-bottom: 20px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 
