@@ -61,11 +61,11 @@ h3{
 }
 .homeheading{
   background-color: none;
-  text-shadow: 10px 10px #B3EFFF;
+  text-shadow: 1vw 1vw #1C304A;
   
 }
 #thishomeheading{
-  color: #1C304A;
+  color: white;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
@@ -196,7 +196,8 @@ main{
   box-sizing: border-box;
 }
 .animate__animated {
-  color: rgb(0, 0, 0);
+  color: rgb(64, 38, 75);
+  text-shadow: 1vw 1vw rgb(216, 177, 226);
 }
   #funBody{
     background-color: rgb(122, 154, 155);
@@ -278,7 +279,7 @@ main{
 .column3{
   float: left;
   width: 50%;
-  padding: 20px;
+  padding: 15px;
   background-color: white;
 }
 .row::after{
@@ -292,6 +293,7 @@ main{
   background-color: white;
   color: #000000;
   font-size: 2.2vw;
+  padding:15px;
 }
 
 .reflectionSubheading{
@@ -306,4 +308,6 @@ main{
 .article2{
   background-color: white;
   text-align: center;
+  padding: 15px;
+  
 }
