@@ -23,14 +23,7 @@
       min-width: 500px;
     }
 }
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
+
 /*text style*/
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -78,6 +71,11 @@ body{
 #homeBody{
   background-color: #1C304A;
   text-align: left;
+  box-sizing: border-box; 
+}
+#reflectionBody{
+  background-color: #1C304A;
+  text-align: center;
   box-sizing: border-box;
 }
 
@@ -93,23 +91,22 @@ text-align: left;
 }
 
 /*Styling the footer*/
-footer{
-  bottom: 0;
+.thefooter{
   background-color: black;
   color: white;
-  font-size: 25px;
-  height: 35px;
-  width: 100%;
-  padding-left: 0px;
-  padding-bottom: 50px;
-  padding-top: 10px;
-  position: static;
+  padding:40px 0;
 }
+.website{
+  margin-top:15px;
+  font-size: 25px;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+}
+
 main{
   padding-bottom: 30px;
 }
-
-
 
   /*Styling the homepage*/
  
@@ -227,44 +224,9 @@ main{
 .sticky + .content {
   padding-top: 60px;
 }
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1; 
-  left: 0;
-  top: 0;
-  background-color: rgb(255, 213, 0);
-  background-color: rgb(255, 213, 0);
-  overflow-x: hidden;
-  transition: 0.5s; 
-}
-.dropdown-content{
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-.overlay a{
-  padding: 9px;
-  text-align: none;
-  font-size: 30px;
-  color: #04AA6D;
-  display: block;
-  transition: 0.3s;
-}
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
 
-/* Images reflection page */
+
+/* Reflection page */
 
 .column3{
   float: left;
@@ -278,7 +240,7 @@ main{
 }
 
 .reflectionParagraph{
-  text-align:center;
-    background-color: none;
-    color: #B3EFFF;
+  text-align: left;
+  background-color: white;
+  color: #000000;
 }
