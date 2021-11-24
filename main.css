@@ -140,15 +140,14 @@ main{
 /*Styling the homepage*/
  
   .indexcolumn1{
-    width: 65%;
+    width: 68%;
     float: left;
     padding: 15px;
     background-color: white;
-    margin: 5px;
   }
   
   .indexcolumn2{
-    width: 25%;
+    width: 30%;
     float: left;
     padding: 15px;
     background-color: #B3EFFF;
