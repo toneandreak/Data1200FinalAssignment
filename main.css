@@ -232,6 +232,13 @@ main{
   overflow-x: hidden;
   transition: 0.5s; 
 }
+.dropdown-content{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
 .overlay a{
   padding: 9px;
   text-align: none;
@@ -250,4 +257,15 @@ main{
   font-size: 60px;
 }
 
+/* Images reflection page */
 
+.column2{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
