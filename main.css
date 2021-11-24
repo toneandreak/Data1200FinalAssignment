@@ -51,6 +51,7 @@
     .thefooter{
       min-width: 100%;
     }
+
 }
 
 /*text style*/
@@ -118,6 +119,12 @@ body{
   background-color: #1C304A;
   text-align: center;
   box-sizing: border-box;
+}
+/*Images*/
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /*Styling article*/
