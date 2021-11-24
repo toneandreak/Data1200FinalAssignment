@@ -48,37 +48,38 @@ h2 {
       animation-duration: 4s;
   animation-iteration-count: infinite;
 }
-h3{
+#oslometheading{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
+  text-align: center;
 }
 p {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: left;
     font-size: 25px;
     color: rgb(0, 0, 0);
 }
 aside{
-  font-family: Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   text-align: left;
   font-size: 20px;
 }
 blockquote{
-  font-family: Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   text-align: left;
   font-size: 15px;
 }
 /*Styling the body*/
 body{
   background-color: #1C304A;
-  text-align: center;
+  text-align: left;
   box-sizing: border-box;
-  background-image: url(photos/OsloMet.jpg);
-  background-repeat: no-repeat;
 }
 
 /*Styling aricle*/
 article{
   background-color: white;
+  text-align: left;
 }
 
 /*Styling the list in topical page*/
@@ -260,7 +261,7 @@ main{
 
 /* Images reflection page */
 
-.column2{
+.column3{
   float: left;
   width: 50%;
   padding: 5px;
@@ -269,4 +270,10 @@ main{
   content: "";
   clear: both;
   display: table;
+}
+
+.reflectionParagraph{
+  text-align:center;
+    background-color: none;
+    color: #B3EFFF;
 }
