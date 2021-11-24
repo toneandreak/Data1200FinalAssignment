@@ -20,19 +20,6 @@
         <a class="active" href="accessibility.html">Accessibility</a>
         <a href="topical.html">Topical Information</a>
         <a href="fun.html">Fun!</a>
-        <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class = "content" onclick="closeNav()">&times;</a>
-        <div class="dropdown">
-          <button class="dropbtn" onclick="openNav ()">Menu</button>
-          <div class="dropdown-content">
-            <a href="index.html">Home</a>
-            <a href="reflection.html">Reflection</a>
-            <a href="accessibility.html">Accessibility</a>
-            <a href="topical.html">Topical Information</a>
-            <a href="fun.html">Fun!</a>
-          </div>
-        </div>
-        </div>
       </div>
     <h1>Accessibility</h1>
       <div class="accessibilitycolumn1">
@@ -51,23 +38,35 @@
       <div class="accessibilitycolumn2">
         <img src="photos/coloraccessability1.jpg" alt="A screenshot of accessible colors.">
         <p class="accessibilityParagraph">
-      We kept accessibility foremost in our thoughts from when we first started to build the website.
-       We wanted to make sure that anyone would be able to use and enjoy it, which was why we not
-        only focused on “passing” the accessibility checker, but also on other aspects of accessibility
-        as well. We thought about the color choice and how it would impact readability for those with
-        visual impairments, as well as language use for those with different reading disabilities, 
-        cognitive disabilities and learning difficulties. Instead of thinking along the lines of
-       “catering” to those with disabilities, as it is often phrased, we have decided to build our
-        website with the mindset that we are building without actively including barriers instead.
+          We ran our website through the accessibility checker several times while we were working on it to make sure that we 
+          wouldn’t have to go back and fix things when we were “done” but could make sure everything was done correctly from the get-go.
+           Starting from the very beginning, where we didn’t have a title, as shown in the picture here. As we went along, more problems 
+           cropped up, such as us using an h3 header under an h1 header. 
+          We didn’t have any problems with color contrast, because we had chosen an accessible color scheme beforehand.
     </p>
       </div>
-
+      <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
     
+    <div class="thefooter">
+      <footer>
+        <br>
+      <p class="website">This website was created as the final assignment for DATA1200 Webdevelopment at OsloMet.</p>
+      </footer>
+    </div>
     </body>
-    
-    <footer>
-      This website was created as the final assignment for DATA1200 Webdevelopment at OsloMet.
-    </footer>
 </html>
 <!--Accessibility page: It must contain a short presentation of accessibility
 (up to 500 words describing how the group tested the code for
