@@ -2,31 +2,6 @@
 
 /*For smaller screens*/
 @media screen and (max-width: 500px) {
-    h1{
-        font-size: 30px;
-    }
-    h2{
-        font-size: 30px;
-    }
-    p{
-        font-size: 10px;
-    }
-    #funParagraph{
-        font-size: 10px;
-    }
-    .dropbtn{
-      min-width: 500px;
-    }
-    #oslometheading{
-      font-size: 30px;
-    }
-    p{
-      font-size: 10px;
-
-    }
-    aside{
-      font-size: 10px;
-    }
     .indexcolumn1{
       min-width: 100%;
     }
@@ -57,7 +32,7 @@
 /*text style*/
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15vw;
+    font-size: 10vw;
     color: #B3EFFF;
     text-align: center;
       animation-duration: 4s;
@@ -65,7 +40,7 @@ h1 {
 }
 h2 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 50px;
+  font-size: 7vw;
   color: #B3EFFF;
   text-align: center;
       animation-duration: 4s;
@@ -73,30 +48,30 @@ h2 {
 }
 h3{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 3vw;
 
 }
 #oslometheading{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 3vw;
   text-align: center;
   color: #1C304A;
 }
 p {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 2.5vw;
     color: rgb(0, 0, 0);
 }
 aside{
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
-  font-size: 20px;
+  font-size: 2.2vw;
 }
 blockquote{
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
-  font-size: 15px;
+  font-size: 1.5vw;
 }
 /*Styling the body*/
 body{
@@ -131,7 +106,7 @@ img{
 article{
   background-color: white;
   text-align: left;
-  padding: 15px;
+  padding: 2.5vw;
   box-sizing: border-box;
 }
 
@@ -139,7 +114,7 @@ article{
 li{
 font-family: 'Times New Roman', Times, serif;
 text-align: left;
-font-size: 25px;
+font-size: 2.5vw;
 color: rgb(0, 0, 0);
 }
 
@@ -152,7 +127,7 @@ color: rgb(0, 0, 0);
   width: 100%;
   height: 50px;
   margin-top: 5px;
-  font-size: 25px;
+  font-size: 2.5vw;
   margin-bottom: 20px;
   text-align: center;
   box-sizing: border-box;
@@ -169,7 +144,7 @@ main{
     float: left;
     padding: 15px;
     background-color: white;
-    margin-top: 200px;
+  
     
   }
   .indexcolumn2{
@@ -178,14 +153,13 @@ main{
     padding: 15px;
     background-color: #B3EFFF;
     color: black;
-    margin-top: 200px;
     
   }
   
   /*Styling accessibility page*/
 
   .accessibilityParagraph{
-    text-align:center;
+    text-align: left;
     color: black;
 
   }
@@ -197,7 +171,7 @@ main{
   }
   .accessibilitycolumn2 {
     width: 50%;
-    float:left;
+    float: left;
     padding: 15px;
     background-color: white;
   }
@@ -219,7 +193,7 @@ main{
     display: inline-block;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5vw;
     padding-left: 10px;
     padding-right: 10px;
     background-color: #ddd;
@@ -257,7 +231,7 @@ main{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 2vw;
 }
 
 #navbar a:hover {
@@ -303,11 +277,12 @@ main{
   text-align: left;
   background-color: white;
   color: #000000;
+  font-size: 2.5vw;
 }
 
 .reflectionSubheading{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 50px;
+  font-size: 7vw;
   color: #000000;
   text-align: center;
       animation-duration: 4s;
