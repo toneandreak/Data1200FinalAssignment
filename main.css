@@ -58,9 +58,11 @@ h3{
 .homeheading{
     text-shadow: 1vw 1vw #1C304A;
     color: white;
+    background-image: url("photos/blurryoslomet.jpg");
 }
 #thishomeheading{
   color: white;
+  background-image: url("photos/blurryoslomet.jpg");
 }
 
 p{
@@ -87,7 +89,6 @@ body{
   background-color: #1C304A;
   text-align: left;
   box-sizing: border-box;
-  
 }
 #homeBody{
   background-color: #1C304A;
