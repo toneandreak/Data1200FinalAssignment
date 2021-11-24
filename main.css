@@ -82,6 +82,7 @@ blockquote{
   font-size: 1.5vw;
   margin: 0px;
 }
+
 /*Navigation menu*/
 #navbar {
   overflow: hidden;
@@ -136,22 +137,6 @@ img{
   object-fit: contain; /*Making them adjust to different screens*/
 }
 
-/*Styling article*/
-article{
-  background-color: white;
-  text-align: left;
-  padding: 2.2vw;
-  margin: 2vw 1.7vw 1vw;
-}
-
-/*Styling the list in topical page*/
-li{
-font-family: 'Times New Roman', Times, serif;
-text-align: left;
-font-size: 2.2vw;
-color: rgb(0, 0, 0);
-margin: 2vw 5vw 1vw 0.8vw;
-}
 
 /*Styling the footer*/
 .thefooter{
@@ -255,7 +240,23 @@ margin: 2vw 5vw 1vw 0.8vw;
     background-color: white;
   }
 
+/*Styling Topical Information Page (article and list)*/
+/*Styling article*/
+article{
+  background-color: white;
+  text-align: left;
+  padding: 2.2vw;
+  margin: 2vw 1.7vw 1vw;
+}
 
+/*Styling the list in topical page*/
+li{
+font-family: 'Times New Roman', Times, serif;
+text-align: left;
+font-size: 2.2vw;
+color: rgb(0, 0, 0);
+margin: 2vw 5vw 1vw 0.8vw;
+}
 
 /*Styling fun-page*/
 * {
@@ -265,26 +266,25 @@ margin: 2vw 5vw 1vw 0.8vw;
   color: rgb(64, 38, 75);
   text-shadow: 1vw 1vw rgb(228, 228, 228);
 }
-  #funBody{
-    background-color: rgb(122, 154, 155);
-    text-align: center;
-  }
-  .funParagraph{
-    display: inline-block;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 2.2vw;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0px 0px 2vw;
-    color: black;
-  }
-
-    .column{
-        width: 50%;
-        float: left;
-        padding: 15px;
-        background-color: rgb(228, 228, 228);
+#funBody{
+  background-color: rgb(122, 154, 155);
+  text-align: center;
+}
+.funParagraph{
+  display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 2.2vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px 0px 2vw;
+  color: black;
+}
+.column{
+  width: 50%;
+  float: left;
+  padding: 15px;
+  background-color: rgb(228, 228, 228);
 }
 
 .column2{
@@ -297,7 +297,3 @@ margin: 2vw 5vw 1vw 0.8vw;
   display: table;
   clear: both;
 }
-
-
-
-
