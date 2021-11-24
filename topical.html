@@ -23,10 +23,8 @@
       </div>
       <div>
     <h1>Topical Information</h1>
-    <h2>Fake news and critical thinking in the digital era</h2>
-
-
     <article>
+    <h2 class="reflectionSubheading">Fake news and critical thinking in the digital era</h2>
 
       <p>
         Merriam-Webster defines fake as something that is <q>not true, real, or genuine</q> <sup><a href="https://www.merriam-webster.com/dictionary/fake">[1]</a></sup>.
@@ -99,8 +97,9 @@
         <li>Merriam-Webster. (n.d.). Tabloid. In Merriam-Webster.com dictionary. Retrieved November 15, 2021, from <a href="https://www.merriam-webster.com/dictionary/tabloid">https://www.merriam-webster.com/dictionary/tabloid</a> </li>
         <li>Merriam-Webster. (n.d.). Clickbait. In Merriam-Webster.com dictionary. Retrieved November 15, 2021, from <a href="https://www.merriam-webster.com/dictionary/clickbait">https://www.merriam-webster.com/dictionary/clickbait</a> </li>
         <li>Chen, Conroy, Rubin (2015) Misleading Online Content: Recognizing Clickbait as “False News”. Retrieved November 15, 2021, from <a href="https://www.researchgate.net/publication/283721117_Misleading_Online_Content_Recognizing_Clickbait_as_False_News">https://www.researchgate.net/publication/283721117_Misleading_Online_Content_Recognizing_Clickbait_as_False_News</a> </li>
-      
-      </ol>               
+        <li>Wendling M. (2018) The (almost) complete history of 'fake news'. Retrieved November 15, 2021, from a https://www.bbc.com/news/blogs-trending-42724320</li>
+      </ol>
+                
 
 
     </article>
@@ -112,6 +111,20 @@
     <p class="website">This website was created as the final assignment for DATA1200 Webdevelopment at OsloMet.</p>
     </footer>
   </div>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
   </body>
 </html>
 <!--Topical information page: Technology and society (with external links):
