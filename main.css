@@ -42,7 +42,7 @@ h2 {
   font-size: 7vw;
   color: #B3EFFF;
   text-align: center;
-  /*Making the animation on heading 1 on fun page infinite*/
+  /*Making the animation on heading 2 on fun page infinite*/
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
@@ -88,7 +88,6 @@ blockquote{
   overflow: hidden;
   background-color:#B3EFFF;
 }
-
 #navbar a {
   float: left;
   display: block;
@@ -98,27 +97,22 @@ blockquote{
   text-decoration: none;
   font-size: 2vw;
 }
-
-#navbar a:hover {
+#navbar a:hover { /*Make the color different when you hover*/
   color:white;
   background-color: black;
 }
-
-#navbar a.active {
+#navbar a.active { /*Make the active window a different color*/
   color:white;
   background-color: black;
 }
-
 .content {
   padding: 16px;
 }
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
-
 .sticky + .content {
   padding-top: 60px;
 }
@@ -160,7 +154,6 @@ img{
   padding: 15px;
   background-color: white;
 }
-
 .indexcolumn2{
   width: 30%;
   float: left;
@@ -168,14 +161,13 @@ img{
   background-color: #B3EFFF;
   color: black;
 }
-/* StylingReflection page */
 
+/* Styling Reflection page */
 .column3{
   float: left;
   width: 50%;
   background-color: white;
 }
-
 .reflectionParagraph{
   text-align: left;
   background-color: white;
@@ -184,14 +176,12 @@ img{
   padding:15px;
   margin: 2vw 1.7vw 1vw;
 }
-
 .reflectionSubheading{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 7vw;
   color: #000000;
   text-align: center;
 }
-
 .article2{
   background-color: white;
   text-align: center;
@@ -206,7 +196,6 @@ img{
   
 
 /*Styling accessibility page*/
-
   .accessibilityParagraph{
     text-align: left;
     font-size: 2.2vw;
@@ -286,7 +275,6 @@ margin: 2vw 5vw 1vw 0.8vw;
   padding: 15px;
   background-color: rgb(228, 228, 228);
 }
-
 .column2{
   width:100%;
   background-color: rgb(228, 228, 228);
